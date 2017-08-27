@@ -1,0 +1,24 @@
+{
+  "name": "johnny5",
+  "version": "1.0.0",
+  "description": "Johnny Five Robotics and IoT",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickBaynham/robotics.git"
+  },
+  "keywords": [
+    "Robotics",
+    "IoT",
+    "JohnnyFive"
+  ],
+  "author": "Nick Baynham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickBaynham/robotics/issues"
+  },
+  "homepage": "https://github.com/NickBaynham/robotics#readme"
+}
