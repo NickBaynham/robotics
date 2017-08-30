@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/NickBaynham/robotics#readme",
   "dependencies": {
+    "arduino": "^0.2.3",
     "johnny-five": "^0.11.6"
   }
 }
