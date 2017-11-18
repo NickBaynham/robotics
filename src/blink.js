@@ -1,6 +1,6 @@
-let five = require('johnny-five');
-let board = new five.Board();
+const five = require('johnny-five');
+const board = new five.Board();
 board.on("ready", () => {
-    let led = new five.Led(13);
+    const led = new five.Led(13);
     led.blink(500);
 });
