@@ -19,7 +19,7 @@ const temp3 = new barcli({
 
 const graph = new barcli({
     label: 'photocell',
-    range: [0, 1023]
+    range: [0, 100]
 });
 
 board.on("ready", function(){
@@ -33,6 +33,7 @@ board.on("ready", function(){
         temp1.update(this.fahrenheit);
         temp2.update(this.celsius);
         temp3.update(this.kelvin);
+        myLCD.cursor(0,0).print(this.fahrenheit);
     });
 
     photocell.on('data', function(){
